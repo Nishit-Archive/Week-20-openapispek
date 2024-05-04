@@ -84,6 +84,6 @@ app.doc("/doc", {
 const app1 = new Hono();
 
 
-app1.get('/Nishit', swaggerUI({ url: '/doc' }))
+app1.get('/ui', swaggerUI({ url: '/doc' }))
 
 export default app
